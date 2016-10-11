@@ -83,11 +83,37 @@ canvas.fill();
 
 //flashlights
 
+canvas.fillStyle = "yellow";
+canvas.beginPath();
+canvas.arc(295, 125, 40, 0, 2*Math.PI);
+canvas.fill();
+
+canvas.fillStyle = "yellow";
+canvas.beginPath();
+canvas.arc(1005, 475, 40, 0, 2*Math.PI);
+canvas.fill();
+
 canvas.fillStyle = "gray";
-canvas.fillRect(70, 102, 165, 50);
+canvas.fillRect(90, 100, 165, 50);
 
+canvas.fillStyle = "gray";
+canvas.fillRect(1050, 450, 165, 50);
 
-//
+canvas.fillStyle = "gray";
+canvas.beginPath();
+canvas.moveTo(210,125);
+canvas.lineTo(310,70);
+canvas.lineTo(310,180);
+canvas.fill();
+
+canvas.fillStyle = "gray";
+canvas.beginPath();
+canvas.moveTo(1095,475);
+canvas.lineTo(995,420);
+canvas.lineTo(995,530);
+canvas.fill();
+
+//click ufo to change poster color
 
 function button() {
   canvas.fillStyle = "white";
