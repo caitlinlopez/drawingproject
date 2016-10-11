@@ -28,3 +28,35 @@ button{
   background-color: transparent;
   border: transparent;
 }
+
+.m {
+  position: absolute;
+  left: 84px;
+  top : 251px;
+  width: 268px;
+  height: auto;
+}
+
+.s {
+  position: absolute;
+  left: 964px;
+  top : 51px;
+  width: 268px;
+  height: auto;
+}
+
+.b {
+  position: absolute;
+  left: 84px;
+  top : 413px;
+  width: 163px;
+  height: auto;
+}
+
+.bb {
+  position: absolute;
+  left: 964px;
+  top : 213px;
+  width: 163px;
+  height: auto;
+}
